@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cont {
+    display: flex;
+    background-color: #686060;
+    list-style-type: none;
+}
+
+li {
+    padding: 5px 10px;
+    font-family: cursive;
+    color: azure
+}
+
+
+li:hover {
+    cursor: pointer;
+    color: black;
+}
