@@ -26,10 +26,16 @@ const App = () => {
     },
   ];
 
+  const addExpenseHandler = (expenses) =>{
+    console.log("in AppJs");
+    console.log(expenses);
+
+  }
+
   return (
     <div>
       <NavBar />
-      <NewExpense />
+      <NewExpense onAddExpense = {addExpenseHandler} />
       <h2>Let's get started!</h2>
       <Expenses items={expenses} />
     </div>
