@@ -1,6 +1,6 @@
 import Expenses from './components/Expenses/Expenses';
 import NavBar from './components/NavBar';
-import NewExpense from './components/NewExpense/NewExpense'
+import NewExpense from './components/NewExpense/NewExpense';
 
 
 const App = () => {
