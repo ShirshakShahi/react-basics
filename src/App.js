@@ -28,8 +28,8 @@ const App = () => {
 
   return (
     <div>
-      <NavBar/>
-      <NewExpense/>
+      <NavBar />
+      <NewExpense />
       <h2>Let's get started!</h2>
       <Expenses items={expenses} />
     </div>
